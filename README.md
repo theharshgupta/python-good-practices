@@ -7,5 +7,5 @@ df = df.assign(column_name=column_values)
 
 ## Updating column based on condition 
 ```
-df.loc[df[column_name].str.contains('value'), 'check_value'] = NEW_VALUE
+df.loc[df[column_name].str.contains('value'), 'column_to_update'] = NEW_VALUE
 ```
